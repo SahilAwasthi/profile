@@ -1,0 +1,206 @@
+body
+{
+	margin: 0;
+	text-align: center;			/* used text-align as there is no width attribute, else use margin: 0 auto;*/
+	font-family: 'Merriweather', serif;
+	color: rgb(10,10,10);
+}
+
+h1
+{
+	/*color : red;*/
+	font-size: 4rem;
+	margin-top: 0;
+	/*padding-top: 20px;*/
+	font-family: 'Sacramento', cursive;
+}
+
+h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	font-weight: normal;
+	
+}
+
+.profile img
+{
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width: 15rem;
+	height: 15rem;
+}
+
+
+.skills img, .projects img ,.education img
+{
+	width: 10rem;
+	height: 10rem;
+}
+
+.education h2, .skills h2, .projects h2
+{
+	color: rgb(100,150,200);
+}
+
+.profile , .education , .skills, .projects
+{
+	width: 50%;
+	margin: 80px auto 100px auto;
+	line-height: 2;
+}
+/*
+.education
+{
+	width: 50%;
+	margin: 100px auto 100px auto;
+}*/
+
+
+h3, h4
+{
+	font-family: 'Montserrat', sans-serif;
+	/*font-weight: normal;*/
+}
+
+hr
+{
+	margin : 50px 10px 50px 10px;
+}
+
+p
+{
+	line-height: 2;
+}
+
+.pro
+{
+	text-decoration: underline;
+}
+
+.sname:hover ~ .ppro .pro
+{
+	background-color: red;
+}
+
+/*.ppro:hover .pro 
+{
+	background-color: red;
+}*/
+
+.top-container
+{
+	background-color: #D5E6F7;
+	position: relative;
+	padding-top: 100px;
+}
+
+
+.top-cloud
+{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+
+}
+
+.bottom-cloud
+{
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+
+.skills , .projects 
+{
+	text-align: left;
+}
+
+.skills h2, .projects h2 
+{
+	text-align: center;
+}
+
+.from
+{
+	line-height: 0.25;
+	margin : 0 auto;
+}
+
+.cswork
+{
+	line-height: 1.5;
+	margin: 0 auto;
+}
+
+.skill-img
+{
+	float: left;
+	margin-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 100px; 
+}
+
+.dbms-img
+{
+	float: right;
+	margin-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.textclass-img
+{
+	float: left;
+	margin-right: 30px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+
+}
+
+.sc-img
+{
+	margin-top: 0px;
+}
+
+.hr2
+{
+	border-style: dashed;
+	border-bottom: none; 
+	border-color: orange;
+}
+
+.project-row
+{
+	margin-top: 70px;
+}
+
+.subhead
+{
+	margin-bottom: 70px;
+	text-decoration: underline;
+}
+
+.h3date
+{
+	margin-bottom: 0px;
+}
+
+.h4date
+{
+	margin-top: 0px;
+}
+
+.bottom-container
+{
+	background-color:lightblue;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-top: 200px;
+}
+
+.footer-link
+{
+	color: #BB5560;
+	padding: 5px 5px 5px 5px;
+}
