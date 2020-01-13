@@ -103,7 +103,7 @@ p
 	right: 300px;
 	top: 50px;
 	animation-name: movingcloud;
-	animation-duration: 5s;
+	animation-duration: 45s;
 	animation-iteration-count: infinite;
 	/*overflow: hidden;*/
 	/*animation-timing-function: linear;*/
@@ -132,7 +132,7 @@ p
 	left: 300px;
 	bottom: 300px;
 	animation-name: movingcloud2;
-	animation-duration: 5s;
+	animation-duration: 60s;
 	animation-iteration-count: infinite;
 	/*overflow: hidden;*/
 	-webkit-animation-timing-function: linear;
