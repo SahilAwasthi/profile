@@ -92,6 +92,7 @@ p
 {
 	background-color: #D5E6F7;
 	position: relative;
+	overflow: hidden;
 	padding-top: 100px;
 }
 
@@ -102,8 +103,9 @@ p
 	right: 300px;
 	top: 50px;
 	animation-name: movingcloud;
-	animation-duration: 45s;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
+	/*overflow: hidden;*/
 	/*animation-timing-function: linear;*/
 	-webkit-animation-timing-function: linear;
 }
@@ -130,8 +132,9 @@ p
 	left: 300px;
 	bottom: 300px;
 	animation-name: movingcloud2;
-	animation-duration: 60s;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
+	/*overflow: hidden;*/
 	-webkit-animation-timing-function: linear;
 
 }
