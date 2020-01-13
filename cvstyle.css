@@ -101,7 +101,27 @@ p
 	position: absolute;
 	right: 300px;
 	top: 50px;
+	animation-name: movingcloud;
+	animation-duration: 45s;
+	animation-iteration-count: infinite;
+	/*animation-timing-function: linear;*/
+	-webkit-animation-timing-function: linear;
+}
 
+
+@keyframes movingcloud
+{
+	0% {left:-300px;}
+	10% {left:-142px;}
+	20% {left: -16px;}
+	30% {left: 142px;}
+	40% {left: 300px;}
+	50% {left: 458px;}
+	60% {left: 626px;}
+	70% {left: 794px;}
+	80% {left: 952px;}
+	90% {left: 1140px;}
+	100% {left: 1360px;}
 }
 
 .bottom-cloud
@@ -109,6 +129,26 @@ p
 	position: absolute;
 	left: 300px;
 	bottom: 300px;
+	animation-name: movingcloud2;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+}
+
+@keyframes movingcloud2
+{
+	0% {left: -1250px;}
+	10% {left: -990px;}
+	20% {left: -730px;}
+	30% {left: -470px;}
+	40% {left: -210px;}
+	50% {left: 50px;}
+	60% {left: 310px;}
+	70% {left: 570px;}
+	80% {left: 830px;}
+	90% {left: 1090px;}
+	100% {left: 1350px;}
 }
 
 .skills , .projects 
