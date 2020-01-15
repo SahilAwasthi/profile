@@ -247,3 +247,24 @@ p
 	color: #BB5560;
 	padding: 5px 5px 5px 5px;
 }
+
+@media screen and (max-width: 950px)
+{
+	.skill-img 
+	{
+		display: block;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/*.dbms-img, .textclass-img
+	{
+		display: block;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}*/
+
+
+}
